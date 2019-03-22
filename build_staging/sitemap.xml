@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>http://learnedia.net.local/categories/configuration</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <loc>http://learnedia.net.local/category/configuration</loc>
+  <lastmod>2019-03-22T23:54:28+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>http://learnedia.net.local/categories/feature</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <loc>http://learnedia.net.local/category/feature</loc>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/custom-404-page</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/customizing-your-site</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/fuse-search</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/getting-started</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/mailchimp-newsletters</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/my-first-blog-post</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/about</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/2</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/blog/feed.atom</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local/contact</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://learnedia.net.local</loc>
-  <lastmod>2019-03-22T23:31:42+01:00</lastmod>
+  <lastmod>2019-03-22T23:54:29+01:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
