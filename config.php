@@ -4,7 +4,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Learnedia.net',
-    'siteDescription' => 'some web dev related tips',
+    'siteDescription' => 'Web dev tips',
     'siteAuthor' => 'Learnrr',
 
     // collections
@@ -12,7 +12,7 @@ return [
         'posts' => [
             'author' => 'Learnrr', // Default author, if not provided in a post
             'sort' => '-date',
-            'path' => 'blog/{filename}',
+            'path' => '{filename}',
         ],
         'categories' => [
             'path' => '/category/{filename}',

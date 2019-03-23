@@ -904,6 +904,10 @@ pre code {
   }
 }
 
+.logo {
+  border-radius: 50%;
+}
+
 .list-reset {
   list-style: none;
   padding: 0;
