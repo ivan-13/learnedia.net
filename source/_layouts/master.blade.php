@@ -14,7 +14,7 @@
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="/favicon.jpg">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
         @stack('meta')
@@ -55,14 +55,15 @@
         </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-reset">
-                <li class="md:mr-2">
+            <ul class="flex flex-col md:flex-row justify-center md:justify-around list-reset">
+                <li>
                     &copy; <a href="{{ $page->baseUrl }}" title="Learnedia.net">Learnedia.net</a> {{ date('Y') }}.
                 </li>
-
+                
                 <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+                    <a href="/about">About</a> | 
+                    <a href="/contact">Contact</a> | 
+                    <a href="/privacy-policy">Privacy policy</a>
                 </li>
             </ul>
         </footer>
