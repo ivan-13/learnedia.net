@@ -3,12 +3,30 @@
     <title>Learnedia.net</title>
     <link href="https://learnedia.net" />
     <link type="application/atom+xml" rel="self" href="https://learnedia.net/blog/feed.atom" />
-    <updated>2019-03-26T21:11:04+01:00</updated>
+    <updated>2019-03-26T22:02:11+01:00</updated>
     <id>https://learnedia.net/blog/feed.atom</id>
     <author>
         <name>Learnrr</name>
     </author>
                 <entry>
+    <id>https://learnedia.net/useful-git-config</id>
+    <link type="text/html" rel="alternate" href="https://learnedia.net/useful-git-config" />
+    <title>Some useful Git configuration options</title>
+    <published>2019-03-23T01:00:00+01:00</published>
+    <updated>2019-03-23T01:00:00+01:00</updated>
+    <author>
+        <name>Learnrr</name>
+    </author>
+    <summary type="html">This is a short list of some useful Git config options and commands that are not used that often, but could spare you a lot of headaches and googling time.
+
+To ignore some untracked files without using .gitignore file, you can add patterns to exclude to......</summary>
+    <content type="html"><![CDATA[
+        <p>This is a short list of some useful Git config options and commands that are not used that often, but could spare you a lot of headaches and googling time.</p>
+<h3>git ignore without .gitignore file</h3>
+<p>To ignore some untracked files without using .gitignore file, you can add patterns to exclude to .git/info/exclude file.</p>
+<p>Check this <a href="https://stackoverflow.com/questions/653454/how-do-you-make-git-ignore-files-without-using-gitignore">SO question</a> for more details and priority that git uses when excluding files.</p>    ]]></content>
+</entry>
+            <entry>
     <id>https://learnedia.net/useful-git-commands</id>
     <link type="text/html" rel="alternate" href="https://learnedia.net/useful-git-commands" />
     <title>Some useful Git commands</title>
