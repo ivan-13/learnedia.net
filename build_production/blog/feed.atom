@@ -3,7 +3,7 @@
     <title>Learnedia.net</title>
     <link href="https://learnedia.net" />
     <link type="application/atom+xml" rel="self" href="https://learnedia.net/blog/feed.atom" />
-    <updated>2019-03-26T22:02:11+01:00</updated>
+    <updated>2019-03-28T21:55:37+01:00</updated>
     <id>https://learnedia.net/blog/feed.atom</id>
     <author>
         <name>Learnrr</name>
@@ -37,10 +37,20 @@ To ignore some untracked files without using .gitignore file, you can add patter
     </author>
     <summary type="html">This is a short list of some useful Git commands that are not used that often, a Git cheat sheet if you will.
 
+
+
+Remove remote branch locally
+
+Remove branch on remote repo
 ...</summary>
     <content type="html"><![CDATA[
         <p>This is a short list of some useful Git commands that are not used that often, a Git cheat sheet if you will.</p>
 <h3>git subtree</h3>
-<pre><code class="language-bash">git subtree push --prefix &lt;folder&gt; origin &lt;branch&gt;</code></pre>    ]]></content>
+<pre><code class="language-bash">git subtree push --prefix &lt;folder&gt; origin &lt;branch&gt;</code></pre>
+<h3>removing remote git branches</h3>
+<p>Remove remote branch locally</p>
+<pre><code class="language-bash">git branch -d -r &lt;remote&gt;/&lt;branch&gt;</code></pre>
+<p>Remove branch on remote repo</p>
+<pre><code class="language-bash">git push &lt;remote&gt; --delete &lt;branch_name&gt;</code></pre>    ]]></content>
 </entry>
     </feed>
