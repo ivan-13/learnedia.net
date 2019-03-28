@@ -16,3 +16,15 @@ This is a short list of some useful Git commands that are not used that often, a
 ```bash
 git subtree push --prefix <folder> origin <branch>
 ```
+
+### removing remote git branches
+Remove remote branch locally
+
+```bash
+git branch -d -r <remote>/<branch>
+```
+Remove branch on remote repo
+
+```bash
+git push <remote> --delete <branch_name>
+```
