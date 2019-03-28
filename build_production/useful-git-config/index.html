@@ -121,7 +121,19 @@
         <p>This is a short list of some useful Git config options and commands that are not used that often, but could spare you a lot of headaches and googling time.</p>
 <h3>git ignore without .gitignore file</h3>
 <p>To ignore some untracked files without using .gitignore file, you can add patterns to exclude to .git/info/exclude file.</p>
-<p>Check this <a href="https://stackoverflow.com/questions/653454/how-do-you-make-git-ignore-files-without-using-gitignore">SO question</a> for more details and priority that git uses when excluding files.</p>    </div>
+<p>Check this <a href="https://stackoverflow.com/questions/653454/how-do-you-make-git-ignore-files-without-using-gitignore">SO question</a> for more details and priority that git uses when excluding files.</p>
+<h3>specify different SSH key for a certain git repo</h3>
+<p>Because you can't use the same SSH key on more than one Bitbucket or GitHub, it's nice to know about this neat setup.</p>
+<p>Add the following to <code>~/.ssh/config</code> file:</p>
+<pre><code class="language-bash">Host github-other
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_other
+  IdentitiesOnly yes</code></pre>
+<p>Where <code>Host</code> is provisional hostname and <code>IdentityFile</code> your SSH private key of choice</p>
+<p>After this is successfully set up, in order to push or pull from remote repo, you need to set correct remote url: </p>
+<pre><code class="language-bash">git remote add origin git@github-other:&lt;your-repo&gt;.git</code></pre>
+<p>More info <a href="https://medium.com/@thucnc/how-to-specify-different-ssh-keys-for-git-push-for-a-given-domain-bef56639dc02">here</a></p>    </div>
 
     <nav class="flex justify-between text-sm md:text-base">
         <div>
